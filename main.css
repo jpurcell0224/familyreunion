@@ -102,6 +102,17 @@ section .row img {
   background-color: #ffffff;
 }
 
+/*quinary*/
+.btn.btn-quinary {
+  border-radius: 2px;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  color: Blue;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
