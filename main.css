@@ -32,7 +32,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Afghanistan_(1880%E2%80%931901).svg/2000px-Flag_of_Afghanistan_(1880%E2%80%931901).svg.png');
+  background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/11/kelly-green-paper-texture-with-flecks.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
@@ -69,8 +69,8 @@ section .row img {
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: Purple;
+  color: Black;
+  background-color: Gold;
 }
 
 .btn-secondary {
@@ -90,8 +90,8 @@ section .row img {
 }
 
 .btn.btn-tertiary:hover {
-  color: #ffffff;
-  background-color: Purple;
+  color: Black;
+  background-color: Gold;
 }
 
 .btn.btn-quad {
