@@ -113,6 +113,10 @@ section .row img {
   background-color: #ffffff;
 }
 
+.btn.btn-quinary:hover {
+  color: Black;
+  background-color: #ffffff;
+
 footer {
   font-size: 12px;
   padding: 20px 0;
