@@ -11,6 +11,7 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
+  margin: 20px 50px 10px 5px;
 }
 
 header h1 {
@@ -119,7 +120,7 @@ section .row img {
 
 footer {
   font-size: 12px;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 footer .col-sm-8 {
