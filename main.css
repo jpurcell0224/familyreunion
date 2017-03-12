@@ -7,16 +7,10 @@ header {
   padding: 20px 0;
 }
 
-header .row {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-}
-
+header .row,
 footer .row {
   display: flex;
   align-items: center;
-  margin: 20px 50px 10px 5px;
 }
 
 header h1 {
@@ -35,10 +29,14 @@ header p {
   margin: 0;
 }
 
+span.highlight {
+    background-color: yellow;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('background for css.png');
+  background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/11/kelly-green-paper-texture-with-flecks.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
@@ -108,21 +106,6 @@ section .row img {
   background-color: #ffffff;
 }
 
-/*quinary*/
-.btn.btn-quinary {
-  border-radius: 2px;
-  border: 0px;
-  font-size: 20px;
-  font-weight: 700;
-  color: Blue;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-quinary:hover {
-  color: Black;
-  background-color: #ffffff;
-
 footer {
   font-size: 12px;
   padding: 20px 0;
@@ -147,3 +130,13 @@ footer li img {
     margin-left: auto;
     margin-right: auto;
  }
+
+.pagebreak { 
+    page-break-before: always;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
